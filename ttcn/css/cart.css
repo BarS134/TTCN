@@ -1,0 +1,26 @@
+.cart .cart-item{
+    display:flex;
+    justify-content: space-around;   
+}
+.cart .cart-item .col { 
+    padding: 10px 3%;
+    margin: 0 20px;
+}
+.cart-item .col img{
+    padding: 5px;
+    width: 200px;
+}
+.cart .payment h1{
+    color: brown;
+}
+.cart .payment a{
+    text-decoration: none;
+}
+.cart .payment {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 180px;
+}
+.cart .payment a h1:hover{
+    color: gold;
+}

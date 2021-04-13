@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    
+    <link rel="stylesheet" href="./css/style.css">
+   
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/auth.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
+    <link rel="stylesheet" href="./css/responsive.css">
+
+    <link rel="icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbCsNK80MVVCfKn5lHT1Q3o8FAHDRRYcyY_g&usqp=CAU"
+        type="image/gif" sizes="16x16">
+    <title>CraryTeen</title>
+</head>
+<body>
+    <div class="main">
+<!-- header -->
+        <div id="header">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="https://crazyteen.vn/wp-content/uploads/2020/06/logocrazyteen2019.png" class="img-responsive" alt="Image">
+                </a>
+            </div>
+
+            <div class="search">
+                <input type="search" name="" placeholder="search" id="input" class="form-control" value="" required="required" title="">
+                <i class="fas fa-search"></i>
+            </div>
+
+            <div class="cart-icon">
+                <span>3</span>
+                <i class="fas fa-shopping-cart"></i>
+            </div>
+        </div>
+<!-- end header -->
+
+<!-- nav-menu -->
+        <div id="nav-menu">
+            <ul id="nav">
+                <li><a href="./index.html">Trang chủ</a></li>
+                <li><a href="">Hệ thống cửa hàng</a></li>
+                <li><a href="">Giới thiệu</a></li>
+                <li><a href="">Tin tức</a></li>
+                <li>
+                    <a href="">
+                        Thời trang nữ
+                        <i class="fas fa-angle-down"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="">Đầm</a></li>
+                        <li><a href="">Áo dài tết</a></li>
+                        <li><a href="">Áo khoác</a></li>
+                        <li><a href="">Áo sơ mi</a></li>
+                        <li><a href="">Quần Jean</a></li>
+                        <li><a href="">Quần Short</a></li>
+                        <li><a href="">Set bộ</a></li>
+                    </ul>
+                </li>
+                <li><a href="./login.html">Đăng nhập</a></li>
+            </ul>
+            
+			<!--begin: button-->
+			<div id="mobile-menu" class="mobile-menu-btn">
+				<i class="fas fa-bars"></i>
+			</div>
+			<!--end: button-->
+
+        </div>
+<!-- end nav-menu -->
+
+<!-- content -->
+<div class="login-page">
+    <form onSubmit="alert('success')">
+        <h2>Register</h2>
+        <input type="text" name="name" required
+            placeholder="Name" value="" onChange="" />
+
+        <input type="email" name="email" required
+            placeholder="Email" value="" onChange="" />
+
+        <input type="password" name="password" required autoComplete="on"
+            placeholder="Password" value="" onChange="" />
+
+        <div class="row">
+            <button type="submit" onclick="">create accout</button>
+            <button onclick=""><a href="./login.html">Login</a></button>
+        </div>
+    </form>
+</div>
+<!--end content -->
+
+<!-- footer -->
+        <hr/>
+        <div class="footer">
+            <div class="footer-col ">
+                <h1>
+                    <h2 class="title">HỖ TRỢ KHÁCH HÀNG</h2><br />
+                </h1>
+                <p>Gửi yêu cầu hỗ trợ, khiếu nại</p>
+                <p>Hướng dẫn đặt hàng</p>
+                <p>Hướng dẫn chọn size</p>
+                <p>Chính sách khách hàng thân thiết</p>
+                <p>Chính sách bảo mật thông tin khách hàng</p>
+                <p>	Chính sách bảo hành và đổi sản phẩm</p>
+                <p>Quy định về thanh toán và vận chuyển</p>
+            </div>
+
+            <div class="footer-col ">
+                <h2 class="title">LIÊN HỆ</h2><br />
+                <div class="home">
+                    <i class="fas fa-home"></i>
+                    <span>CÔNG TY CỔ PHẨN THỜI TRANG CRAZYTEEN
+                        Giấy CNĐKDN: 0315307330 – Ngày cấp: 27/05/2008.
+                        Trụ sở chính: 1022 Cách Mạng Tháng 8, P.5, Q. Tân Bình, TP. Hồ Chí Minh</span>
+                </div><br />
+
+                <div class="call">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>  19006882</span>
+                </div><br />
+
+                <div class="Website">
+                    <i class="fas fa-globe-europe"></i>
+                    <span> Website: www.crazyteen.vn</span>
+                </div><br />
+                <div class="Mail">
+                    <i class="fas fa-envelope-square"></i>
+                    <span>Email: cskh@crazyteen.vn</span>
+                </div>
+            </div>
+
+            <div class="footer-col ">
+                <h2 class="title">VỀ CRAZYTEEN</h2><br />
+                <div class="về">
+                    <i class="fas fa-ad"></i>
+                    <span>Giới thiệu</span>
+                </div><br />
+                <div class="Blog">
+                    <i class="fas fa-blog"></i>
+                    <span>Blog</span>
+                </div><br />
+                <div class="GH">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span>Giỏ hàng</span>
+                </div><br />
+                <div class="TT">
+                    <i class="fas fa-money-check-alt"></i>
+                    <span>Thanh toán</span>
+                </div><br />
+                <div clas="LH">
+                    <i class="fas fa-phone-square-alt"></i>
+                    <span>Liên Hệ</span>
+                </div><br />
+                </div>
+            </div>
+            <div class="footer-col ">
+                <h2 class="title">KẾT NỐI VỚI CHÚNG TÔI</h2>
+                <div class="fitt">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1107.2111444511238!2d105.85253222170732!3d21.024700897273508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab5f1753ea05%3A0xf1ee2ce01f7cae66!2zVHLDoG5nIFRp4buBbiBQbGF6YSBIb8OgbiBLaeG6v20!5e0!3m2!1svi!2s!4v1613395883710!5m2!1svi!2s"  width="90%" height="80%" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+            </div>
+        </div>
+<!--end footer -->
+
+        <div class="copyright">
+            <hr/>
+            <p class="content">© 2021 - Copyright by NguyenHuuCong. All Rights Reserved.</p>
+        </div>
+
+    </div><!-- end main  -->
+
+    <script>
+        var header = document.getElementById('nav-menu');
+        var mobibleMenu = document.getElementById('mobile-menu');
+        var headerHeight = header.clientHeight;
+
+        mobibleMenu.onclick = function(){
+            var isClosed = header.clientHeight ===  headerHeight;
+            if (isClosed){
+                header.style.height ='auto';
+            }else{
+                header.style.height ='46px';
+            }
+        };
+    </script>
+    
+</body>
+</html>

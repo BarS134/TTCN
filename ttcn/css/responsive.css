@@ -1,0 +1,46 @@
+/* PC*/
+@media (min-width: 1024px) {
+
+}
+
+/* Tablet*/
+@media (min-width: 740px) and (max-width: 1023px) {
+    
+}
+
+/* monbile*/
+@media (max-width: 740px) {
+/* cho cột menu dọc xuống*/
+    #nav> li{
+        display: block;
+    }
+
+    #nav .subnav{
+        position: initial;
+    }
+
+    #header{
+        width: 100%;
+    }
+    #nav-menu{
+        width: 100%;
+        overflow: hidden;
+    }
+    .galleryContainer{
+        height: 205px;
+    }
+    .cart .cart-item{
+        display:flex;
+        justify-content: space-evenly;   
+    }
+    .cart-item .col img{
+        padding: 5px;
+        width: 120px;
+    }
+    .form-group{
+        display: flex;
+        margin: 15px 0;
+        justify-content: flex-start;
+    }
+/* cho cột menu dọc xuống*/
+}
